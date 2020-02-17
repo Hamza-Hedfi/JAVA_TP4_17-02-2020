@@ -1,7 +1,7 @@
 package com.deuterium.exercice1;
 
 public class Cercle_v2 extends Point {
-    double rayon;
+    private double rayon;
 
     public Cercle_v2(double x, double y, double rayon) {
         super(x, y);
@@ -17,6 +17,7 @@ public class Cercle_v2 extends Point {
     }
 
     public Point getCentre() {
+//        return new Point(getX(), getY());
         return new Point(x, y);
     }
 

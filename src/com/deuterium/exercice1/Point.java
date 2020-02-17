@@ -1,7 +1,7 @@
 package com.deuterium.exercice1;
 
 public class Point {
-    public double x, y;
+    protected double x, y;
 
     public Point(double x, double y) {
         this.x = x;
@@ -16,5 +16,14 @@ public class Point {
     @Override
     public String toString() {
         return "Point de coordonnees : " + x + ", " + y;
+    }
+
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
     }
 }
