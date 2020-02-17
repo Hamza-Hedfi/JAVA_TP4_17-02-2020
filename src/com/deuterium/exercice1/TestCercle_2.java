@@ -11,7 +11,7 @@ public class TestCercle_2 {
 //        System.out.println(pt);
 
 
-        //
+
         Point pt1, pt2;
         Cercle_v2 c1, c2;
 
